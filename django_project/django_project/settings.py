@@ -29,9 +29,9 @@ ADMINS = (
 EMAIL_USE_TLS = True
 EMAIL_HOST = 'smtp.gmail.com'
 # EMAIL_HOST_USER = 'deepakbharti823@gmail.com'
-EMAIL_HOST_USER='iarkonschools@gmail.com'
+EMAIL_HOST_USER='your_email'
 # EMAIL_HOST_PASSWORD = 'zwmdutnsiyyhskge'
-EMAIL_HOST_PASSWORD = 'MyGooglE@3S'
+EMAIL_HOST_PASSWORD = 'your_passwd'
 EMAIL_PORT = 587
 
 
@@ -104,9 +104,9 @@ WSGI_APPLICATION = 'django_project.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'schools',
-        'USER': 'root',
-        'PASSWORD': 'kali@161ss',
+        'NAME': 'db_name',
+        'USER': 'db_user',
+        'PASSWORD': 'db_pass',
         'HOST': '139.59.40.128',
         'PORT': '5432',
     }
