@@ -1,0 +1,7 @@
+
+django==2.0
+python3
+netifaces
+django-crispy-forms
+bleach
+unipath
